@@ -47,7 +47,7 @@ const App = () => {
             name="done"
             style={[
               styles.listIcon,
-              {backgroundColor: task?.completed ? 'green' : COLORS.lightGray},
+              {backgroundColor: task?.completed ? '#439A86' : COLORS.lightGray},
             ]}
             onPress={() => markTask(task.id)}
           />
